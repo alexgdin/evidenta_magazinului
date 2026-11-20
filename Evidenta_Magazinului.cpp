@@ -254,7 +254,6 @@ void magazin :: admin_casn()
 void magazin :: meniu_admin()
 {m:
     int n;
-    cout << "FOUNDERS:\nDin Gh. Alexandru\nSerban Andrei\nCazangiu Rares";
     cout << "\n\n\n\n\t\t\t\t\tBine ati venit la magazinul 10F" << '\n' << "\t\t\t\t-----------------------------------------------" << '\n';
     cout << "\t\t\t\tVa rugam selectati ce actiune doriti sa urmati:" << '\n' << "\t\t\t\t-----------------------------------------------" << '\n';
     cout << "\t\t\t\t[1]Alimentar" << '\n' << '\n' << "\t\t\t\t[2]Textil" << '\n' << '\n' <<  "\t\t\t\t[3]Casnic\n\n" <<"\t\t\t\t[4] Iesire" <<  '\n' << "\t\t\t\t-----------------------------------------------" << "\n\t\t\t\t";
@@ -285,7 +284,6 @@ void magazin :: meniu()
 {
     {
 m:
-        cout << "FOUNDERS:\nDin Gh. Alexandru\nSerban Andrei\nCazangiu Rares";
         cout << "\n\n\n\n\t\t\t\t\tBine ati venit la magazinul 10F" << '\n' << "\t\t\t\t-----------------------------------------------" << '\n';
         cout << "\t\t\t\tVa rugam selectati ce actiune doriti sa urmati:" << '\n' << "\t\t\t\t-----------------------------------------------" << '\n';
         cout << "\t\t\t\t[1]Alimentar" << '\n' << '\n' << "\t\t\t\t[2]Textil" << '\n' << '\n' <<  "\t\t\t\t[3]Casnic\n\n" << "\t\t\t\t[4]Admin"<< '\n' << '\n' <<"\t\t\t\t[5] Iesire" <<  '\n' << "\t\t\t\t-----------------------------------------------" << "\n\t\t\t\t";
@@ -328,7 +326,7 @@ void magazin :: alimentar()
 {
 m:
     int n;
-    cout << "FOUNDERS:\nDin Gh. Alexandru\nSerban Andrei\nCazangiu Rares";
+
     cout << "\n\n\n\n\t\t\t\t--------------------------------------------------------" << '\n';
     cout << "\t\t\t\t[1]Produs specific {cautati un anumit produs}" << '\n' << '\n'; // cauta in stoc un produs anume si-l afiseaza
     // cout << "cantitate dorita / nu este pe stoc";
@@ -366,7 +364,7 @@ void magazin :: textil()
 {
 m:
     int n;
-    cout << "FOUNDERS:\nDin Gh. Alexandru\nSerban Andrei\nCazangiu Rares";
+
     cout << "\n\n\n\n\t\t\t\t--------------------------------------------------------" << '\n';
     cout << "\t\t\t\t[1]Produs specific {cautati un anumit produs}" << '\n' << '\n'; // cauta in stoc un produs anume si-l afiseaza
     // cout << "cantitate dorita / nu este pe stoc";
@@ -408,7 +406,7 @@ void magazin :: casnic()
 {
 m:
     int n;
-    cout << "FOUNDERS:\nDin Gh. Alexandru\nSerban Andrei\nCazangiu Rares";
+
     cout << "\n\n\n\n\t\t\t\t--------------------------------------------------------" << '\n';
     cout << "\t\t\t\t[1]Produs specific {cautati un anumit produs}" << '\n' << '\n'; // cauta in stoc un produs anume si-l afiseaza
     // cout << "cantitate dorita / nu este pe stoc";
