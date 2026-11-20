@@ -59,7 +59,3 @@ Run the executable:
 **Alex G. Din**
 
 [GitHub Profile](https://github.com/alexgdin)
-
----
-
-*Every programmer starts somewhere. This is where I started.*
